@@ -1,16 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import Blogging from '../Blogging/Blogging';
-import 'react-toastify/dist/ReactToastify.css';
 import Readblog from '../Readblog/Readblog';
-
 import './Blogs.css';
 
 
-
-
-
 const Blogs = () => {
+
     const [blogs, setBlogs] = useState([]);
     const [blog, setBlog] = useState([]);
     const[bookmarks, setBookmarks] = useState([]);
@@ -32,14 +28,14 @@ const Blogs = () => {
     const bookMark=(bookmark) =>{
         if (bookmarks.includes(bookmark)) 
            {
-          alert("Already Added");
+            toast.error('You have already Bookmarked this Blog');
         }
            
-    
         let newBookmark = [...bookmarks, bookmark];
         setBookmarks(newBookmark);
        
     }
+
     return (
         <div className="blogs">
             
@@ -61,6 +57,7 @@ const Blogs = () => {
            
             <Readblog blog={blog}  bookmarks={bookmarks}></Readblog>
             </div>
+          
         </div>
     );
 };
