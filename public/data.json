@@ -5,8 +5,8 @@
       "Author_name": "Pacheco Sam",
       "Blog_title": "Machine Learning and Artificial Intelligence",
       "Blog_cover": "https://img.freepik.com/free-vector/ai-machine-learning-template-vector-disruptive-technology-blog-banner_53876-112230.jpg",
-      "Read_time": "6",
-      "Publish":"March-21,2023"
+      "Read_time": "06",
+      "Publish":"21 March,2023"
     },
     {
       "id": "6427acd89835c42f0187dd7e",
@@ -14,8 +14,8 @@
       "Author_name": "Kay Martinez",
       "Blog_title": "Big Data Analytics in Real Life Scenario",
       "Blog_cover": "https://www.kindpng.com/picc/m/361-3617484_bigdata-trasparent-big-data-cover-page-hd-png.png",
-      "Read_time": "8",
-      "Publish":"February-18,2023"
+      "Read_time": "08",
+      "Publish":"18 February,2023"
     },
     {
       "id": "6427acd828637dc49a2f3afa",
@@ -24,7 +24,7 @@
       "Blog_title": "Cyber Security in Recent Times",
       "Blog_cover": "https://t3.ftcdn.net/jpg/02/69/74/04/360_F_269740489_H9JCPmidJQh3erTmXPnlg5capVGXTdFb.jpg",
       "Read_time": "12",
-      "Publish":"February-10,2023"
+      "Publish":"10 February,2023"
     },
     {
       "id": "6427acd8251c5f008512fbad",
@@ -32,8 +32,8 @@
       "Author_name": "Debra Wolf",
       "Blog_title": "Programming Languages and Software Development Demands",
       "Blog_cover": "https://previews.123rf.com/images/vladgrin/vladgrin1809/vladgrin180900058/110173006-programming-web-banner-best-programming-languages-technology-process-of-software-development.jpg",
-      "Read_time": "7",
-      "Publish":"January-25,2023"
+      "Read_time": "07",
+      "Publish":"25 January,2023"
     }
     
   ]

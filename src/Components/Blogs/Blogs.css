@@ -2,4 +2,9 @@
     display:grid;
     grid-template-columns: 9fr 3fr;
     grid-gap:10px;
+    
+}
+.blog-summary{
+    text-align: center;
+    padding: 8px;
 }
