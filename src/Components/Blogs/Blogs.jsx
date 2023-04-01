@@ -6,6 +6,7 @@ import './Blogs.css';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     const [blog, setBlog] = useState([]);
+    const[bookmarks, setBookmarks] = useState([]);
 
     useEffect(()=>{
         fetch('data.json')
@@ -18,6 +19,12 @@ const Blogs = () => {
      let newBlog = [...blog, readBlog];
      setBlog(newBlog);
     }
+
+    const bookMark=(bookmark) =>{
+        let newBookmark = [...bookmarks, bookmark];
+        setBookmarks(newBookmark);
+        console.log(bookmark);
+    }
     return (
         <div className="blogs">
             <div className='blog-container'> 
@@ -26,7 +33,8 @@ const Blogs = () => {
                 blogs.map(blog=> <Blog
                      blog={blog}
                       key={blog.id}
-                      markRead={markRead}>
+                      markRead={markRead}
+                      bookMark={bookMark}>
 
                       </Blog>)
             }
@@ -34,7 +42,7 @@ const Blogs = () => {
             </div>
             <div className='blog-summary'>
            
-            <Readblog blog={blog}></Readblog>
+            <Readblog blog={blog}  bookmarks={bookmarks}></Readblog>
             </div>
         </div>
     );
