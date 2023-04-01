@@ -1,0 +1,5 @@
+.blogs{
+    display:grid;
+    grid-template-columns: 9fr 3fr;
+    grid-gap:10px;
+}

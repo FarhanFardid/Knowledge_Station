@@ -6,10 +6,10 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='nav-brand'>
-                <h2 >Knowledge <span class="brand-span">Station</span> </h2>
+                <h2 >Knowledge <span className="brand-span">Station</span> </h2>
             </div>
             <div className='nav-img'>
-                <img src={user} alt="" srcset="" />
+                <img src={user} alt="user"  />
             </div>
             
         </nav>
