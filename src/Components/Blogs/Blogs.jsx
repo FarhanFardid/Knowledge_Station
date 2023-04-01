@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
 import Blogging from '../Blogging/Blogging';
-
+import 'react-toastify/dist/ReactToastify.css';
 import Readblog from '../Readblog/Readblog';
+
 import './Blogs.css';
+
+
+
+
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -16,19 +22,29 @@ const Blogs = () => {
 
     },[]);
 
+   
+
     const markRead=(readBlog) =>{
      let newBlog = [...blog, readBlog];
      setBlog(newBlog);
     }
 
     const bookMark=(bookmark) =>{
+        if (bookmarks.includes(bookmark)) 
+           {
+          alert("Already Added");
+        }
+           
+    
         let newBookmark = [...bookmarks, bookmark];
         setBookmarks(newBookmark);
-        console.log(bookmark);
+       
     }
     return (
         <div className="blogs">
+            
             <div className='blog-container'> 
+         
             {
               
                 blogs.map(blog=> <Blogging

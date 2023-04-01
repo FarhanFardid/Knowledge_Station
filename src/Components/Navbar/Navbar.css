@@ -6,14 +6,7 @@
     padding-right: 60px;
     align-items: center;
 }
-/* .navbar{
-    display: grid;
-    grid-template-columns: 8fr 4fr;
-    background-color: #8db0c7;
-    padding-left: 80px;
-    padding-right: 60px;
-    align-items: center;
-} */
+
 .nav-brand{
     font-weight: 800;
     font-size:x-large;
