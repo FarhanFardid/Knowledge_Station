@@ -21,7 +21,7 @@ const Readblog = (props) => {
      
     return (
         <div className='blog-read'>
-             <h2>Blogs </h2>
+             <h1>Blogs </h1>
             <div className='time'>
                 <h3>Spent Time on Read: {ReadTime} min</h3>
               

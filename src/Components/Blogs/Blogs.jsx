@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Blog from '../Blog/Blog';
+import Blogging from '../Blogging/Blogging';
+
 import Readblog from '../Readblog/Readblog';
 import './Blogs.css';
 
@@ -30,13 +31,13 @@ const Blogs = () => {
             <div className='blog-container'> 
             {
               
-                blogs.map(blog=> <Blog
+                blogs.map(blog=> <Blogging
                      blog={blog}
                       key={blog.id}
                       markRead={markRead}
                       bookMark={bookMark}>
 
-                      </Blog>)
+                      </Blogging>)
             }
 
             </div>
