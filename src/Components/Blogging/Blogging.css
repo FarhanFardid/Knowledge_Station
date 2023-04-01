@@ -46,3 +46,23 @@
     background-color: rgb(180, 237, 237);
     font-weight: 800;
 }
+
+@media only screen and (max-width: 768px) {
+    .author-info h2{
+        font-size: large;
+    }
+    
+    .blog-content h1{
+        font-size: larger;
+    }
+
+    .blog{
+   
+     border-radius: 5px;
+     margin: 0px;
+     margin-top: 3px;
+     padding: 3px;
+     box-sizing: border-box;
+    }
+
+}

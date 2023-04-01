@@ -9,3 +9,20 @@
     padding: 15px;
     background-color: antiquewhite;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .blogs{
+       
+        grid-template-columns: 1fr;
+        grid-gap: 2px;
+        
+    }
+
+    .blog-summary{
+    
+        padding: 5px;
+      
+    }
+
+}
